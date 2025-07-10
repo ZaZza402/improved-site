@@ -3,6 +3,8 @@ backend:
   branch: main
   login: true
 
+publish_mode: simple
+
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
@@ -12,7 +14,7 @@ collections:
     files:
       - label: "Privacy Policy"
         name: "privacy"
-        file: "privacy.html"
+        file: "privacy.md"
         fields:
-          - { label: "Page Title", name: "title", widget: "string" }
-          - { label: "Content", name: "body", widget: "markdown" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }

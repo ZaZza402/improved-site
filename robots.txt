@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://zazza402.github.io/improved-site/sitemap.xml
